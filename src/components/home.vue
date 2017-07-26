@@ -2,7 +2,7 @@
     <div>
         <view-page>
             <bar-header class="bar-header bar-positive">
-                <h1 class="title">Home</h1>
+                <h1 class="title">Home :)</h1>
             </bar-header>
             <content-page>
                 <list>
@@ -18,18 +18,3 @@
         </view-page>        
     </div>
 </template>
-
-<script>
-
-    import viewPage from './base/viewPage.vue'
-    import contentPage from './base/content-page.vue'
-    import {BarHeader} from './base/bar/index.vue'
-    import {List,Item} from './list/index.vue'
-
-    export default {
-        components: {
-            viewPage, contentPage,BarHeader,List,Item
-        }
-    }
-
-</script>

@@ -3,6 +3,19 @@ import VueRouter from 'vue-router'
 import App from './App.vue'
 import fw from './fw.js'
 
+import viewPage from './components/base/viewPage.vue'
+import contentPage from './components/base/content-page.vue'
+import {BarHeader} from './components/base/bar/index.vue'
+import {List,Item} from './components/list/index.vue'
+
+Vue.component('viewPage', viewPage)
+Vue.component('contentPage', contentPage)
+Vue.component('item', Item)
+Vue.component('BarHeader', BarHeader)
+Vue.component('item', Item)
+Vue.component('ListList', List)
+
+
 import drop from './services/backdrop/index.js'
 import action from './services/actionsheet/index.js'
 

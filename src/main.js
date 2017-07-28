@@ -13,7 +13,7 @@ Vue.component('contentPage', contentPage)
 Vue.component('item', Item)
 Vue.component('BarHeader', BarHeader)
 Vue.component('item', Item)
-Vue.component('ListList', List)
+Vue.component('List', List)
 
 
 import drop from './services/backdrop/index.js'
@@ -25,6 +25,8 @@ import Teste2 from './components/teste2.vue'
 import Index from './components/index.vue'
 import About from './components/About.vue'
 import Profile from './components/Profile.vue'
+import Botoes from './components/botoes.vue'
+import Product from './components/Product.vue'
 
 Vue.use(VueRouter);
 
@@ -48,6 +50,12 @@ router.map({
     },
     '/profile': {
         component: Profile,
+    },
+    '/botoes': {
+        component: Botoes,
+    },
+    '/product': {
+        component: Product,
     }
 });
 

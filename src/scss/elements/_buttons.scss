@@ -1,0 +1,116 @@
+.btn {
+    border-color: transparent;
+    background-color: #f5f5f5;
+    color: #444;
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    padding: 0 12px;
+    min-width: 52px;
+    min-height: 44px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 4px;
+    vertical-align: top;
+    text-align: center;
+    text-overflow: ellipsis;
+    font-size: 16px;
+    line-height: 42px;
+    cursor: pointer;
+
+    /* SIZES */
+    &.--small {
+        padding: 2px 4px 1px;
+        min-width: 28px;
+        min-height: 30px;
+        font-size: 12px;
+        line-height: 26px;
+    }
+
+    &.--large {
+        padding: 0 16px;
+        min-width: 68px;
+        min-height: 44px;
+        /*min-height: 59px; --> original do ionic */
+        font-size: 20px;
+        line-height: 53px;
+    }
+
+    &.--block {
+        width: 100%;
+        display: block;
+        clear: both;
+    }
+
+    &.--full {
+        @extend .--block;
+        border-radius: 0;
+    }
+
+
+    /* COLORS */
+    &.--danger{
+        border-color: transparent;
+        background-color: #ea5a49;
+        color: #fff;
+
+        &.--clean{
+            border-color: transparent;
+            background-color: transparent;
+            color: #ea5a49;
+        } 
+
+        /* STYLE */
+        &.--outline{
+            border-color: #ea5a49;
+            color: #ea5a49;
+        }     
+    }
+
+    &.--green{
+        border-color: transparent;
+        background-color: #41d1b8;
+        color: #fff;
+
+        &.--clean{
+            border-color: transparent;
+            background-color: transparent;
+            color: #41d1b8;
+        } 
+
+        /* STYLE */
+        &.--outline{
+            border-color: #41d1b8;
+            color: #41d1b8;
+        }     
+    }
+
+    &.--primary{
+        border-color: transparent;
+        background-color: #4183d1;
+        color: #fff;
+
+        &.--clean{
+            border-color: transparent;
+            background-color: transparent;
+            color: #4183d1;
+        } 
+
+        /* STYLE */
+        &.--outline{
+            border-color: #4183d1;
+            color: #4183d1;
+        }     
+    }
+
+
+    /* STYLES */
+    &.--round{
+        border-radius: 24px;
+    }
+
+    &.--outline{
+        background: transparent;
+    }
+
+}

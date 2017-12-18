@@ -54,7 +54,7 @@ export default {
     	}
     },
     detached: function(){
-        alert();
+        console.log('detached');
     }
 
 }

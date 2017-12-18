@@ -9,15 +9,12 @@
                     <item class="item-icon-right" v-link="{ path: '/product' }">
                         Produtos
                     </item>
-                    <item class="item-icon-right" v-link="{ path: '/teste' }">
-                        Teste
-                    </item>
-                    <item class="item-icon-right" v-link="{ path: '/teste' }">
-                        Teste <span class="item-note"> vai</span>
+                    <item class="item-icon-right" v-link="{ path: '/profile' }">
+                        Perfil 
                         <i class="icon ion-ios-arrow-right"></i>
                     </item>
-                    <item class="item-icon-right" v-link="{ path: '/botoes' }">
-                        Botões 
+                    <item class="item-icon-right" v-link="{ path: '/about' }">
+                        About 
                         <i class="icon ion-ios-arrow-right"></i>
                     </item>
                 </list>
